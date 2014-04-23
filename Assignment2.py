@@ -1,6 +1,6 @@
 import csv
 newData = []
-# open and read the CSV file
+# open and read the data file
 with open('data.csv', 'rU') as csvfile:
     data = csv.reader(csvfile, delimiter=',')
     for row in data:
